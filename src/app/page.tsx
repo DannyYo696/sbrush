@@ -830,11 +830,13 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
               {/* Left Column - Platform Features */}
               <div className="space-y-4 md:space-y-6">
-                <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 hover:border-[#0096FF]/50 hover:bg-white/10 transition-all duration-500">
+
+
+                <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 hover:border-[#B8FCBF]/50 hover:bg-white/10 transition-all duration-500">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#0096FF]/20 to-[#0096FF]/5 border border-[#0096FF]/30 flex items-center justify-center">
-                      <svg className="w-6 h-6 text-[#0096FF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#B8FCBF]/20 to-[#B8FCBF]/5 border border-[#B8FCBF]/30 flex items-center justify-center">
+                      <svg className="w-6 h-6 text-[#B8FCBF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                       </svg>
                     </div>
                     <h3 className="text-lg md:text-xl font-medium text-white">Secure Custody</h3>
@@ -843,6 +845,8 @@ export default function Home() {
                     Enterprise-grade custody workflows with multi-layer security protocols and cold storage solutions.
                   </p>
                 </div>
+
+                
 
                 <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 hover:border-[#B8FCBF]/50 hover:bg-white/10 transition-all duration-500">
                   <div className="flex items-center gap-4 mb-4">
@@ -918,11 +922,11 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 hover:border-[#FB5A30]/50 hover:bg-white/10 transition-all duration-500">
+                <div className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8 hover:border-[#FFBC41]/50 hover:bg-white/10 transition-all duration-500">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#FB5A30]/20 to-[#FB5A30]/5 border border-[#FB5A30]/30 flex items-center justify-center">
-                      <svg className="w-6 h-6 text-[#FB5A30]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#FFBC41]/20 to-[#FFBC41]/5 border border-[#FFBC41]/30 flex items-center justify-center">
+                      <svg className="w-6 h-6 text-[#FFBC41]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                       </svg>
                     </div>
                     <h3 className="text-lg md:text-xl font-medium text-white">Access Controls</h3>
@@ -931,6 +935,11 @@ export default function Home() {
                     Role-based permissions and multi-factor authentication for authorized operations.
                   </p>
                 </div>
+
+                
+
+
+
               </div>
             </div>
           </div>
