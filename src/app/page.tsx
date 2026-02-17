@@ -413,7 +413,7 @@ export default function Home() {
             <div className="animate-card group bg-[#004638] p-6 sm:p-8 md:p-10 border border-white/5 rounded-lg hover:bg-white/5 relative overflow-hidden transition-all duration-500">
               <div className="absolute top-0 right-0 w-24 sm:w-32 h-24 sm:h-32 bg-[#0096FF]/10 rounded-full blur-3xl -mr-12 sm:-mr-16 -mt-12 sm:-mt-16 transition-all group-hover:bg-[#0096FF]/20" />
               <div className="relative z-10">
-                <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-full border border-[#0096FF]/30 flex items-center justify-center text-[#0096FF] mb-4 sm:mb-6">
+                <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-full border border-[#FFBC41]/30 flex items-center justify-center text-[#FFBC41] mb-4 sm:mb-6">
                   <svg className="w-5 sm:w-6 h-5 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
@@ -458,7 +458,7 @@ export default function Home() {
             <div className="animate-card group bg-[#004638] p-6 sm:p-8 md:p-10 border border-white/5 rounded-lg hover:bg-white/5 relative overflow-hidden transition-all duration-500">
               <div className="absolute top-0 right-0 w-24 sm:w-32 h-24 sm:h-32 bg-[#FB5A30]/10 rounded-full blur-3xl -mr-12 sm:-mr-16 -mt-12 sm:-mt-16 transition-all group-hover:bg-[#FB5A30]/20" />
               <div className="relative z-10">
-                <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-full border border-[#FB5A30]/30 flex items-center justify-center text-[#FB5A30] mb-4 sm:mb-6">
+                <div className="w-10 sm:w-12 h-10 sm:h-12 rounded-full border border-[#B8FCBF]/30 flex items-center justify-center text-[#B8FCBF] mb-4 sm:mb-6">
                   <svg className="w-5 sm:w-6 h-5 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                   </svg>
@@ -674,7 +674,8 @@ export default function Home() {
       </section>
 
       {/* Risk Management Section - Unconventional Design */}
-      <section className="py-20 sm:py-28 md:py-40 px-4 sm:px-6 bg-[#002820] relative overflow-hidden">
+      <section className="mt-[-80px] sm:mt-[-60px] md:mt-[-180px] py-20 sm:py-28 md:py-40 px-4 sm:px-6 bg-[#002820] relative overflow-hidden">
+
         {/* Background Elements */}
         <div className="absolute top-0 left-0 w-full h-full">
           <div className="absolute top-[20%] left-[10%] w-[300px] h-[300px] bg-[#FB5A30]/5 rounded-full blur-[100px]" />
@@ -791,7 +792,11 @@ export default function Home() {
       </section>
 
       {/* Platform & Governance Section - Unconventional Design */}
-      <section id="platform" className="py-20 sm:py-28 md:py-40 px-4 sm:px-6 relative overflow-hidden">
+      <section 
+  id="platform" 
+  className="mt-[-40px] sm:mt-[-60px] md:mt-[-80px] py-20 sm:py-28 md:py-40 px-4 sm:px-6 relative overflow-hidden"
+>
+
         {/* Dynamic Background */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#004638] via-[#002820] to-[#004638]">
           <div className="absolute inset-0 opacity-30" style={{
@@ -810,10 +815,10 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto relative z-10">
           {/* Hero Header */}
-          <div className="text-center mb-16 md:mb-24">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0096FF]/10 border border-[#0096FF]/20 mb-6">
+          <div className="text-center mb-16 md:mb-24 mt-[-40px] sm:mt-[-60px] md:mt-[-100px]" >
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0096FF]/10 border border-[#0096FF]/20 mb-6 ">
               <div className="w-2 h-2 rounded-full bg-[#0096FF] animate-pulse" />
-              <span className="text-[#0096FF] text-xs font-medium tracking-widest uppercase">Platform & Governance</span>
+              <span className=" text-[#0096FF] text-xs font-medium tracking-widest uppercase">Platform & Governance</span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extralight text-white leading-tight">
               Institutional Architecture
@@ -1046,8 +1051,8 @@ export default function Home() {
       </section>
 
       {/* Who We Serve Section */}
-      <section className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 bg-[#004638]">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 bg-[#004638] ">
+        <div className="max-w-7xl mx-auto mt-[-40px] sm:mt-[-60px] md:mt-[-120px]" >
           <div className="text-center mb-12 sm:mb-16 md:mb-20">
             <h2 className="text-[#0096FF] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-4">Who We Serve</h2>
             <h3 className="text-2xl sm:text-3xl md:text-5xl font-extralight text-white">
@@ -1096,7 +1101,11 @@ export default function Home() {
       </section>
 
       {/* Insights Section - Redesigned */}
-      <section id='insights' className="py-20 sm:py-28 md:py-40 px-4 sm:px-6 bg-[#002820] relative overflow-hidden">
+     <section 
+  id="insights" 
+  className="mt-[-40px] sm:mt-[-60px] md:mt-[-80px] py-20 sm:py-28 md:py-40 px-4 sm:px-6 bg-[#002820] relative overflow-hidden"
+>
+
         {/* Background Effects */}
         <div className="absolute inset-0">
           <div className="absolute top-[-20%] right-[-10%] w-[500px] h-[500px] bg-[#0096FF]/10 rounded-full blur-[100px]" />
@@ -1106,10 +1115,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative z-10">
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16 md:mb-20">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0096FF]/10 border border-[#0096FF]/20 mb-6">
-              <div className="w-2 h-2 rounded-full bg-[#0096FF] animate-pulse" />
-              <span className="text-[#0096FF] text-xs font-medium tracking-widest uppercase">Insights & Research</span>
-            </div>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#0096FF]/10 border border-[#0096FF]/20 mb-6 -mt-8">
+  <div className="w-2 h-2 rounded-full bg-[#0096FF] animate-pulse" />
+  <span className="text-[#0096FF] text-xs font-medium tracking-widest uppercase">Insights & Research</span>
+</div>
+
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extralight text-white mb-4 sm:mb-6">
               Measured Perspectives
             </h2>
